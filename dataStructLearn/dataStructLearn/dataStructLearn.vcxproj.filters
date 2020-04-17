@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\tree">
+      <UniqueIdentifier>{4a488859-5eda-4190-a8ab-79b5b6ef70c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -27,6 +30,12 @@
     <ClInclude Include="MyList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="PreOrderTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -37,6 +46,12 @@
     </ClCompile>
     <ClCompile Include="MyList.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PreOrderTree.cpp">
+      <Filter>源文件\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>源文件\tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
