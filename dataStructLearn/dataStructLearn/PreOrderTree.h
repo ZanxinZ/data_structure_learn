@@ -8,12 +8,15 @@ class PreOrderTree
 {
 public:
 	PreOrderTree();
-	PreOrderTree(int pre[]);
+	PreOrderTree(int pre[],int size);
 	node *constructTree(int pre[],int size);
 	node *constructTree(int pre[],int *preIndex,int low,int high,int size);
 	node *newNode(int data);
 	node *preOrder(node *root);
 	node *outputCurr(node *curr);
+	node *getRoot() { return root; }
+
+	
 	~PreOrderTree();
 private:
 	node *root;
